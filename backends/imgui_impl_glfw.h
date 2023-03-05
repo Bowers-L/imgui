@@ -16,7 +16,7 @@
 #pragma once
 #include "imgui.h"      // IMGUI_IMPL_API
 
-struct GLFWwindow;
+class GLFWwindow;
 struct GLFWmonitor;
 
 IMGUI_IMPL_API bool     ImGui_ImplGlfw_InitForOpenGL(GLFWwindow* window, bool install_callbacks);
